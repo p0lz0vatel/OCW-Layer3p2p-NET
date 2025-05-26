@@ -1,0 +1,26 @@
+{
+  "name": "ocw-net",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node network.js",
+    "bootstrap": "node bootstrap.js",
+    "send": "node sender.js",
+    "receive": "node receiver.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@chainsafe/libp2p-gossipsub": "^14.1.1",
+    "@libp2p/bootstrap": "^11.0.38",
+    "@libp2p/identify": "^3.0.32",
+    "@libp2p/mdns": "^11.0.38",
+    "@libp2p/mplex": "^11.0.38",
+    "@libp2p/noise": "^12.0.1",
+    "@libp2p/pubsub": "^9.0.26",
+    "@libp2p/websockets": "^9.2.13",
+    "libp2p": "^2.8.8"
+  }
+}
